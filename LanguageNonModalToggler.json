@@ -2,7 +2,7 @@
   "title": "Non-modal layout switcher",
   "rules": [
     {
-      "description": "CapsLock->EN, LeftShift+CapsLock->RU",
+      "description": "CapsLock->EN, RightShift+CapsLock->RU",
       "manipulators": [
                 {
           "type": "basic",
@@ -23,7 +23,7 @@
             "key_code": "caps_lock",
             "modifiers": {
               "mandatory": [
-                "left_shift"
+                "right_shift"
               ]
             }
           },

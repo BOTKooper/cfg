@@ -5,7 +5,7 @@
 ### Description
 
 CTRL -> EN
-LSHIFT + CTRL -> RU
+RSHIFT + CTRL -> RU
 
 ### Installation
 
