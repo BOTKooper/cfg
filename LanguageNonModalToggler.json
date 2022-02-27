@@ -4,7 +4,7 @@
     {
       "description": "CapsLock->EN, RightShift+CapsLock->RU",
       "manipulators": [
-                {
+        {
           "type": "basic",
           "from": {
             "key_code": "caps_lock"
@@ -36,6 +36,29 @@
           ]
         }
       ]
-    }
+    },
+    {
+      "description": "Right Opt -> uk",
+      "manipulators": [
+          {
+              "from": {
+                  "key_code": "right_option"
+              },
+              "to": [
+                  {
+                      "key_code": "right_option"
+                  }
+              ],
+              "to_if_alone": [
+                  {
+                      "select_input_source": {
+                          "language": "uk"
+                      }
+                  }
+              ],
+              "type": "basic"
+          }
+      ]
+  }
   ]
 }
